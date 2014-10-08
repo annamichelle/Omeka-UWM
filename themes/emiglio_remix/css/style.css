@@ -834,7 +834,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* @end */
   /* @group ----- Home ----- */
   #intro {
-    border-color: #dddddd;
+    border-color: #00FF00;
+    border-width: 2em;
     padding-top: 1.5em;
     border-bottom-width: 0.07143em;
     border-bottom-style: solid;
