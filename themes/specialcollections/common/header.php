@@ -103,20 +103,18 @@
             <div id="site-title"><?php echo link_to_home_page(theme_logo()); ?></div>
         </header>
 
-        <nav id="primary-nav">
-            <?php echo public_nav_main(array('role' => 'navigation')); ?>
-            <div id="search-wrap">
-                <?php if (get_theme_option('use_advanced_search') === null || get_theme_option('use_advanced_search')): ?>
-                <?php echo search_form(array('show_advanced' => true)); ?>
-                <?php else: ?>
-                <?php echo search_form(); ?>
-                <?php endif; ?>
-            </div>
-        </nav>   
-
         <div class="menu-button button">Menu</div>
 
         <div id="wrap">
-            
+            <nav id="primary-nav">
+                <?php echo public_nav_main(array('role' => 'navigation')); ?>
+                <div id="search-wrap">
+                    <?php if (get_theme_option('use_advanced_search') === null || get_theme_option('use_advanced_search')): ?>
+                    <?php echo search_form(array('show_advanced' => true)); ?>
+                    <?php else: ?>
+                    <?php echo search_form(); ?>
+                    <?php endif; ?>
+                </div>
+            </nav>
             <div id="content">
                 <?php fire_plugin_hook('public_content_top', array('view'=>$this)); ?>
