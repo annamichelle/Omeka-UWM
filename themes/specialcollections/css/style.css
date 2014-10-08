@@ -1441,14 +1441,14 @@ table {
   }
   #search-wrap input[type=text], #search-wrap button {
     height: 400px;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 36px;
+    line-height: 300px;
     *zoom: 1;
   }
   #search-wrap button {
-    width: 30px;
+    width: 300px;
     border: 0;
-    color: #fff;
+    color: #000;
     position: absolute;
     top: 0;
     right: 0;
@@ -1467,14 +1467,14 @@ table {
     position: absolute;
     top: 0;
     left: 0;
-    width: 30px;
+    width: 300px;
     text-align: center;
     height: 30px;
     line-height: 30px;
   }
   #search-wrap input[type=text] {
     width: 100%;
-    border: 1px solid #000;
+    border: 10px solid #F00;
     padding: 5px 40px 5px 10px;
   }
 
