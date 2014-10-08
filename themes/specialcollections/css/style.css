@@ -1067,7 +1067,7 @@ table {
   }
 
   #primary-nav ul.navigation, .mobile {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #FF0000;
     position: relative;
     margin-top: 0em;
     margin-bottom: 0em;
