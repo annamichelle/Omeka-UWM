@@ -1440,7 +1440,7 @@ table {
     display: none;
   }
   #search-wrap input[type=text], #search-wrap button {
-    height: 30px;
+    height: 60px;
     font-size: 16px;
     line-height: 24px;
     *zoom: 1;
