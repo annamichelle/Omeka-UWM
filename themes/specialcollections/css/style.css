@@ -1025,6 +1025,8 @@ table {
   /* @end */
   /* @group ----- Navigation -----  */
   nav ul {
+    list-style: none;
+    margin: 0 auto;
     padding-left: 0;
   }
 
