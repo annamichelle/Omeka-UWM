@@ -1029,6 +1029,9 @@ table {
     margin: 0 auto;
     padding-left: 0;
   }
+  nav a {
+    display: inline-block;
+  }
 
   ul.navigation {
     padding-left: 0;
