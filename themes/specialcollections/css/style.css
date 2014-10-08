@@ -1038,7 +1038,8 @@ table {
   }
 
   .top ul {
-    display: none;
+    border: solid #ccc;
+    border-width: 0 0 1px 0;
   }
 
   .bottom ul {
