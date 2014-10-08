@@ -1101,7 +1101,7 @@ table {
   }
   #primary-nav ul.navigation > li, .mobile > li {
     padding: 0;
-    list-style-type: none;
+    list-style-type: circle;
     width: 100%;
   }
   #primary-nav ul.navigation > li a, .mobile > li a {
