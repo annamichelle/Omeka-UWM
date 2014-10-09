@@ -22,7 +22,7 @@ function emiglio_exhibit_builder_page_nav($exhibitPage = null)
                     $html .= "<li $current>" . exhibit_builder_link_to_exhibit($exhibit, $childPage->title, array(), $childPage) . '</li>';
                 }
             $html .= '</ul>';
-        }*/
+        } */
         $html .='</li>';
     }
     $html .= '</ul>' . "\n";
