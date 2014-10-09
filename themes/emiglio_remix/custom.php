@@ -14,7 +14,7 @@ function emiglio_exhibit_builder_page_nav($exhibitPage = null)
     foreach ($pages as $page) {
         $current = (exhibit_builder_is_current_page($page)) ? 'class="current"' : '';
         $html .= "<li $current>" . exhibit_builder_link_to_exhibit($exhibit, $page->title, array(), $page);
-        if ($page->countChildPages() > 0) {
+        /* if ($page->countChildPages() > 0) {
             $childPages = $page->getChildPages();
             $html .= '<ul class="child-pages">';
                 foreach ($childPages as $childPage) {
@@ -22,7 +22,7 @@ function emiglio_exhibit_builder_page_nav($exhibitPage = null)
                     $html .= "<li $current>" . exhibit_builder_link_to_exhibit($exhibit, $childPage->title, array(), $childPage) . '</li>';
                 }
             $html .= '</ul>';
-        }
+        }*/
         $html .='</li>';
     }
     $html .= '</ul>' . "\n";
