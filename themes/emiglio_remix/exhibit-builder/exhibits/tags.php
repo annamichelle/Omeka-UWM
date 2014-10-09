@@ -1,12 +1,12 @@
 <?php
-$title = __('Browse Exhibits by Tag');
-echo head(array('title' => $title, 'bodyclass' => 'exhibits tags'));
+$title = __('Browse Exhibits by Tag'); //sets variable $title to the string, "Browse Exhibits by Tag"
+echo head(array('title' => $title, 'bodyclass' => 'exhibits tags')); //includes the file header.php, sets title and bodyclass
 ?>
 
-<div id="primary">
-    <h1><?php echo $title; ?></h1>
+<div id="primary"> <!-- Left half of the main area -->
+    <h1><?php echo $title; ?></h1> <!-- prints $title as the main heading -->
     
-    <nav class="navigation exhibit-tags" id="secondary-nav">
+    <nav class="navigation exhibit-tags" id="secondary-nav"> <!-- Displays secondary navigation options-->
         <?php echo nav(array(
                 array(
                     'label' => __('Browse All'),
