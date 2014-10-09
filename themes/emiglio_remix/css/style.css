@@ -835,10 +835,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* @group ----- Home ----- */
   #intro {
     border-color: #00FF00;
-    border-width: 2em;
+    border-width: 10em;
     padding-top: 1.5em;
     border-bottom-width: 0.07143em;
-    border-bottom-style: solid;
+    border-bottom-style: double;
     padding-bottom: 1.42857em;
   }
 
